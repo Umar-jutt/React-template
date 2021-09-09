@@ -1,0 +1,23 @@
+.navbar {
+  background-image: url(/src/assets/1background.jpg);
+  height: 600px;
+}
+.navbar-brand {
+  margin-top: -480px;
+  font-size: 38px;
+  color: white;
+  font-weight: bold;
+  margin-left: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navlist {
+  margin-top: -480px;
+}
+
+.navlist a {
+  margin-right: 35px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}

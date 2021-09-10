@@ -2,24 +2,38 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar container">
-        <div className="navbar-brand">StudioM4.</div>
-        <div className="navlist">
-          <a href="" className="navlinks">
-            Home
-          </a>
-          <a href="" className="navlinks">
-            Live Demo
-          </a>
-          <a href="" className="navlinks">
-            Live Demo Blocks
-          </a>
-          <a href="" className="navlinks">
-            Buy Now
-          </a>
-          <a href="" className="navlinks fa fa-shopping-cart"></a>
+      <nav className="flex">
+        <div className=" navbar-brand">StudioM4.</div>
+        <div className="navbar-list">
+          <ul>
+            <div className="ulflex">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Live Demo
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Live Demo Blog
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Buy Now
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link fa fa-shopping-cart" href="#"></a>
+              </li>
+            </div>
+          </ul>
         </div>
-      </div>
+      </nav>
     </>
   );
 };

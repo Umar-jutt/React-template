@@ -1,23 +1,32 @@
-.navbar {
-  background-image: url(/src/assets/1background.jpg);
-  height: 600px;
-}
 .navbar-brand {
-  margin-top: -480px;
-  font-size: 38px;
+  font-size: 47px;
   color: white;
-  font-weight: bold;
-  margin-left: 30px;
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 35px;
+  padding-top: 45px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.navlist {
-  margin-top: -480px;
+.flex {
+  display: flex;
+  background-color: black;
 }
-
-.navlist a {
-  margin-right: 35px;
-  color: white;
-  text-decoration: none;
+.ulflex {
+  display: flex;
+  margin-left: 330px;
+  justify-content: right;
+  margin-top: 60px;
+}
+.nav-item {
+  list-style: none;
+  font-size: 15px;
   font-weight: bold;
+}
+.nav-item a {
+  margin-right: 15px;
+}
+.nav-link {
+  list-style: none;
+  color: white;
 }

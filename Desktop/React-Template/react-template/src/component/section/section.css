@@ -3,5 +3,35 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 130vh;
+}
+
+.getstarted a span {
+  position: absolute;
+  width: 220px;
+  height: 70px;
+  color: palevioletred;
+  left: 0;
+  top: 0;
+}
+
+.web {
+  color: white;
+  font-size: 70px;
+  text-align: left;
+  padding-top: 250px;
+  padding-left: 50px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.getstarted {
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  padding: 20px 25px;
+  border: solid palevioletred;
+  float: left;
+  margin-left: 70px;
+  margin-top: 40px;
+  position: relative;
 }

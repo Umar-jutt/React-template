@@ -8,14 +8,14 @@
 
 .getstarted a span {
   position: absolute;
-  width: 220px;
   height: 70px;
-  color: palevioletred;
+  color: #ff497c;
   left: 0;
   top: 0;
 }
 
 .web {
+  background-color: transparent;
   color: white;
   font-size: 70px;
   text-align: left;
@@ -29,9 +29,24 @@
   background-color: transparent;
   color: white;
   padding: 20px 25px;
-  border: solid palevioletred;
+  border: solid #ff497c;
   float: left;
   margin-left: 70px;
   margin-top: 40px;
   position: relative;
+}
+@media (max-width: 768px) {
+  .to-right {
+    margin-bottom: 100px;
+  }
+  .first-image {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+  }
+  .web {
+    font-size: 35px;
+  }
 }

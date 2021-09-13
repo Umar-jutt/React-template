@@ -1,19 +1,34 @@
 import "./card.css";
+import manyCard from "../../../src/manycard";
+import { useState } from "react";
 const Card = () => {
+  const [cardData, setcardData] = useState(manyCard);
+  console.log(cardData);
   return (
     <>
-      <div className="container">
-        <div className="card">
-          <i className="far fa-edit edit"></i>
-          <div className="container text">
-            <h3 className="card-head">Get 30+ Design</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-        </div>
-      </div>
+      {cardData.map((val) => {
+        return (
+          <>
+            <div className="row space" key={val.id}>
+              <div className="container">
+                <div className="card">
+                  <div className="card-body">
+                    <div className="icon">
+                      <i className="fas fa-edit"></i>
+                    </div>
+                    <div className="head">
+                      <h3>{val.heading}</h3>
+                    </div>
+                    <div className="text">
+                      <p>{val.text}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </>
+        );
+      })}
     </>
   );
 };

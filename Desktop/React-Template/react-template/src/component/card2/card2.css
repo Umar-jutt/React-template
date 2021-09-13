@@ -1,0 +1,28 @@
+.card2 {
+  background-color: whitesmoke;
+  color: black;
+  height: 100px;
+  width: 350px;
+  margin-bottom: 100px;
+}
+.file {
+  display: none;
+}
+.text-2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 32px;
+  padding-left: 10px;
+}
+.arrow {
+  font-size: 40px;
+  padding-left: 130px;
+  padding-top: 22px;
+}
+@media (max-width: 786px) {
+  .card2 {
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+}

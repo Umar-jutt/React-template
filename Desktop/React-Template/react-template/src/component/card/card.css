@@ -1,35 +1,50 @@
-.card {
+.space {
+  padding-left: 30px;
+}
+.card-body {
   background-color: #ff497c;
   color: white;
-  width: 33%;
-  height: 350px;
+  width: 350px;
+  height: 310px;
+}
+.card {
   margin-top: -350px;
-  margin-bottom: 100px;
-  border-radius: 0%;
-}
-.text {
-  font-size: 14px;
-  text-align: left;
+  border: none;
+  margin-right: 100px;
+
   margin-left: 10px;
+  background-color: #ff497c;
+  color: white;
+  width: 250px;
+  height: 350px;
 }
-.card-head {
-  font-size: 30px;
-  padding-top: 50px;
-  text-align: left;
-  font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
+.icon {
+  font-size: 50px;
+  float: left;
+  padding-right: 250px;
+  color: white;
+  margin-top: 30px;
 }
-.card-head:after {
-  margin-top: 15px;
+
+.head {
+  margin-top: 20px;
+  float: left;
+}
+.head:after {
   content: "";
-  display: block;
-  width: 50px;
+  margin-top: 10px;
+  width: 80px;
   height: 3px;
+  display: block;
   background: white;
 }
-.edit {
-  font-size: 40px;
-  margin-top: 50px;
+.text {
+  margin-top: 30px;
+  float: left;
   text-align: left;
-  margin-left: 30px;
+}
+@media (max-width: 786px) {
+  .text p {
+    font-size: 30px;
+  }
 }

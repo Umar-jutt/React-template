@@ -1,0 +1,7 @@
+* {
+  color: black;
+}
+.direction {
+  display: flex;
+  flex-direction: column;
+}

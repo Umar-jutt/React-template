@@ -3,7 +3,6 @@ import manyCard from "../../../src/manycard";
 import { useState } from "react";
 const Card = () => {
   const [cardData, setcardData] = useState(manyCard);
-  console.log(cardData);
   return (
     <>
       {cardData.map((val) => {

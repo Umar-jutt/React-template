@@ -1,3 +1,97 @@
-h1 {
-  background-color: pink;
+.about-heading {
+  font-size: 60px;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 40px;
+  color: black;
+}
+.about-text {
+  text-align: left;
+  padding-left: 40px;
+  color: #ff497c;
+  font-weight: bold;
+  font-size: 18px;
+}
+.text {
+  text-align: left;
+}
+.image-1 {
+  color: white;
+  background-color: blue;
+  height: 80vh;
+  width: 105%;
+  background-image: url(/src/assets/office-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-1 h5 {
+  text-align: left;
+  padding-left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 380px;
+}
+.image-1-text {
+  color: white;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 18px;
+}
+.image-2 {
+  margin-left: 70px;
+  color: white;
+  background-color: #ff497c;
+  height: 40vh;
+  width: 100%;
+  background-image: url(/src/assets/office-2.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-2 h5 {
+  text-align: left;
+  padding-left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 150px;
+}
+.image-text {
+  color: white;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 18px;
+}
+.image-3 {
+  margin-left: 70px;
+  color: white;
+  background-color: aqua;
+  height: 40vh;
+  width: 100%;
+  background-image: url(/src/assets/office-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-3 h5 {
+  text-align: left;
+  padding-left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 150px;
+}
+@media (max-width: 786px) {
+  .image-1 {
+    height: 60vh;
+    margin-left: 8px;
+  }
+  .image-1 h5 {
+    padding-top: 290px;
+  }
+  .image-2 {
+    margin-top: 15px;
+    margin-left: 8px;
+  }
+  .image-3 {
+    margin-top: 15px;
+    margin-left: 8px;
+  }
 }

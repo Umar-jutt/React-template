@@ -3,7 +3,6 @@ import manyCard2 from "../../manycard2";
 import { useState } from "react";
 const Card2 = () => {
   const [card2, setcard2] = useState(manyCard2);
-  console.log(card2);
   return (
     <>
       <div className="row ps-3">

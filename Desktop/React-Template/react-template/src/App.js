@@ -9,13 +9,14 @@ import Card3 from "./component/card3/card3";
 import Success from "./component/success/success";
 import Workprocess from "./component/workprocess/workprocess";
 import Card4 from "./component/card4/card4";
+import Showcase from "./component/showcase/showcase";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Section />
-      <div className="d-flex umar">
+      <div>
         <Card />
       </div>
       <Services />
@@ -36,6 +37,9 @@ function App() {
       </div>
       <div>
         <Card4 />
+      </div>
+      <div>
+        <Showcase />
       </div>
     </div>
   );

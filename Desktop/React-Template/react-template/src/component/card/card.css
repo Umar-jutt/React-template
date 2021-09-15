@@ -1,34 +1,30 @@
 .space {
-  padding-left: 30px;
+  margin-left: 160px;
 }
-.card-body {
-  background-color: #ff497c;
-  color: white;
-  width: 350px;
-  height: 310px;
-}
-.card {
+.card1 {
   margin-top: -350px;
   border: none;
-  margin-right: 100px;
-
+  background: #ff497c;
   margin-left: 10px;
-  background-color: #ff497c;
-  color: white;
-  width: 250px;
-  height: 350px;
+  width: 340px;
+  height: 320px;
+  padding-left: 20px;
 }
-.icon {
+
+.card1 i {
   font-size: 50px;
   float: left;
   padding-right: 250px;
   color: white;
   margin-top: 30px;
+  padding-bottom: 20px;
 }
 
 .head {
+  font-size: 25px;
   margin-top: 20px;
   float: left;
+  color: white;
 }
 .head:after {
   content: "";
@@ -42,9 +38,15 @@
   margin-top: 30px;
   float: left;
   text-align: left;
+  color: white;
 }
 @media (max-width: 786px) {
   .text p {
     font-size: 30px;
+  }
+  .media {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
   }
 }

@@ -29,3 +29,12 @@
   padding-left: 65px;
   font-weight: bold;
 }
+@media (max-width: 786px) {
+  .image {
+    margin-left: -23px;
+  }
+  .success-media {
+    padding-top: 50px;
+    margin-left: -35px;
+  }
+}

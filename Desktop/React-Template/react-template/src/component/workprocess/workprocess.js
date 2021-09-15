@@ -2,7 +2,7 @@ import "./workprocess.css";
 const Workprocess = () => {
   return (
     <>
-      <div className="main">
+      <div className="work-main">
         <h1 className="work-heading mt-5">Work Process</h1>
 
         <p>

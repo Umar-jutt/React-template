@@ -5,24 +5,51 @@
   width: 350px;
   margin-bottom: 100px;
 }
-.file {
-  display: none;
+.card2:hover {
+  padding-left: 30px;
 }
+
+/*
+.card {
+  margin-top: 80px;
+  height: 40px;
+  width: 40px;
+}*/
 .text-2 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
   padding-top: 32px;
-  padding-left: 10px;
 }
-.arrow {
-  font-size: 40px;
-  padding-left: 130px;
+.arrow i {
+  font-size: 30px;
+  padding-left: 40px;
+  padding-top: 22px;
+}
+.umar {
+  display: none;
+}
+.umar:hover {
+  display: block;
+}
+.file-icon {
+  display: none;
+  font-size: 30px;
   padding-top: 22px;
 }
 @media (max-width: 786px) {
   .card2 {
     margin-top: 50px;
     margin-left: 40px;
+  }
+  .text-2 {
+    text-align: left;
+    padding-left: 10px;
+  }
+  .align {
+    display: flex;
+  }
+  .file-icon {
+    display: none;
   }
 }

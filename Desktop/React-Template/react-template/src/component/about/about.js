@@ -1,4 +1,7 @@
 import "./about.css";
+import image1 from "../../assets/office-1.jpg";
+import image2 from "../../assets/office-2.jpg";
+import image3 from "../../assets/office-3.jpg";
 const About = () => {
   return (
     <>
@@ -19,20 +22,24 @@ const About = () => {
       </div>
 
       <div className="row container">
-        <div className="col-md-8">
-          <div className="image-1">
+        <div className="col-md-8 overlay">
+          <div className="image1">
+            <img src={image1} />
+
             <h5>Teamwork</h5>
-            <p className="image-1-text">Lorem ipsum dolor</p>
+            <p>Lorem ipsum dolor</p>
           </div>
         </div>
         <div className="col-md-4">
-          <div className="image-2 ">
+          <div className="image2 mb-4 ">
+            <img src={image2} />
             <h5>Philosophy</h5>
-            <p className="image-text">Lorem ipsum dolor</p>
+            <p>Lorem ipsum dolor</p>
           </div>
-          <div className="image-3">
+          <div className="image3">
+            <img src={image3} />
             <h5>Office</h5>
-            <p className="image-text">Lorem ipsum dolor</p>
+            <p>Lorem ipsum dolor</p>
           </div>
         </div>
       </div>

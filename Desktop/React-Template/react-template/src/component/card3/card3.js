@@ -8,7 +8,7 @@ const Card3 = () => {
       <div className="row container mt-5 ms-md-4">
         {card3.map((val) => {
           return (
-            <div className="col-md-4" key={val.id}>
+            <div className="col-md-4 card3-media" key={val.id}>
               <div className="font-3-heading">
                 <h4>{val.heading}</h4>
               </div>

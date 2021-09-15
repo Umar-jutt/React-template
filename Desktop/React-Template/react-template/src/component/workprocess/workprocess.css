@@ -3,7 +3,18 @@
   font-weight: bold;
   color: black;
 }
-.main p {
+.work-main p {
   text-align: center;
   justify-content: center;
+}
+@media (max-width: 786px) {
+  .work-main {
+    width: 90%;
+  }
+  .work-main p {
+    font-size: 10px;
+  }
+  .work-heading {
+    font-size: 40px;
+  }
 }

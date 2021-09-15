@@ -5,29 +5,19 @@ const Card = () => {
   const [cardData, setcardData] = useState(manyCard);
   return (
     <>
-      {cardData.map((val) => {
-        return (
-          <>
-            <div className="row space" key={val.id}>
-              <div className="container">
-                <div className="card">
-                  <div className="card-body">
-                    <div className="icon">
-                      <i className="fas fa-edit"></i>
-                    </div>
-                    <div className="head">
-                      <h3>{val.heading}</h3>
-                    </div>
-                    <div className="text">
-                      <p>{val.text}</p>
-                    </div>
-                  </div>
-                </div>
+      <div className="row container ps-5">
+        {cardData.map((val) => {
+          return (
+            <div className="col-md-4 " key={val.id}>
+              <div className="card1 mx-md-3 media">
+                <i className={val.icon}></i>
+                <h2 className="head">{val.heading}</h2>
+                <p className="text">{val.text}</p>
               </div>
             </div>
-          </>
-        );
-      })}
+          );
+        })}
+      </div>
     </>
   );
 };

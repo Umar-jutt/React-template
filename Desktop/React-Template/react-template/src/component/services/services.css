@@ -26,6 +26,11 @@
   position: relative;
   margin-right: -40px;
 }
+.viewall:hover {
+  background: #ff497c;
+  transition: 0.5s;
+  border: solid black;
+}
 .viewall a span {
   position: absolute;
   width: 220px;

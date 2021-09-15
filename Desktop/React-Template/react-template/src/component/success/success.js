@@ -7,7 +7,7 @@ const Success = () => {
         <div className="col-md-5">
           <img className="image" src={image}></img>
         </div>
-        <div className="col-md-7">
+        <div className="col-md-7 success-media">
           <div className="heading">
             <h1>Success Story</h1>
             <p>ONLINE MARKETING SOLUTIONS.</p>

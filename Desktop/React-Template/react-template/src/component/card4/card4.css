@@ -5,3 +5,25 @@
   display: flex;
   flex-direction: column;
 }
+.card-4 {
+  width: 400px;
+}
+.card4-icon i {
+  font-size: 40px;
+  color: #ff497c;
+  padding-left: 45px;
+}
+.card4-heading {
+  font-size: 27px;
+  text-align: left;
+  padding-left: 35px;
+}
+.card4-text {
+  text-align: left;
+  padding-left: 35px;
+}
+@media (max-width: 786px) {
+  .card-4 {
+    margin-left: -100px;
+  }
+}

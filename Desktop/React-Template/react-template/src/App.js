@@ -10,37 +10,28 @@ import Success from "./component/success/success";
 import Workprocess from "./component/workprocess/workprocess";
 import Card4 from "./component/card4/card4";
 import Showcase from "./component/showcase/showcase";
+import News from "./component/news/news";
+import Ourteam from "./component/ourteam/ourteam";
+import Talk from "./component/talk/talk";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Section />
-      <div>
-        <Card />
-      </div>
+      <Card />
+
       <Services />
-      <div>
-        <Card2 />
-      </div>
-      <div>
-        <About />
-      </div>
-      <div>
-        <Card3 />
-      </div>
-      <div>
-        <Success />
-      </div>
-      <div>
-        <Workprocess />
-      </div>
-      <div>
-        <Card4 />
-      </div>
-      <div>
-        <Showcase />
-      </div>
+      <Card2 />
+      <About />
+      <Card3 />
+      <Success />
+      <Workprocess />
+      <Card4 />
+      <Showcase />
+      <News />
+      <Ourteam />
+      <Talk />
     </div>
   );
 }

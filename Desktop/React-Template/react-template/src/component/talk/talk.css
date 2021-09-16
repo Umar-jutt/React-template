@@ -1,0 +1,28 @@
+.talk-high {
+  height: 300px;
+  padding-top: 50px;
+}
+.talk-icon {
+  color: white;
+  border: #ff497c solid;
+  padding-left: 15;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.talk-getstarted {
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  padding: 20px 25px;
+  border: solid #ff497c;
+  float: left;
+  margin-left: 70px;
+  position: relative;
+}
+.talk-getstarted:hover {
+  background: #ff497c;
+  transition: 0.5s;
+}

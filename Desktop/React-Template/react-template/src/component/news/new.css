@@ -1,72 +1,69 @@
-.show-heading {
+.news-heading {
   font-size: 50px;
   font-weight: bold;
   color: black;
 }
-.show-main p {
+.news-main p {
   text-align: center;
   justify-content: center;
 }
-
-.box {
+.news-box {
   position: relative;
   width: 300px;
   height: 300px;
   background: pink;
 }
-.box .imgbox {
+.news-box .news-imgbox {
   position: relative;
   overflow: hidden;
 }
-.box .imgbox img {
+.news-box .news-imgbox img {
   width: 100%;
   transition: transform 2s;
 }
-.box:hover .imgbox img {
+.news-box:hover .news-imgbox img {
   transform: scale(1.2);
 }
-.box .details {
+.news-box .news-details {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  bottom: 10px;
-  right: 10px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
   background: rgba(0, 0, 0, 0.8);
-  transform: scaleY(0);
-  transition: transform 0.5s;
+  display: block;
 }
-.box:hover .details {
-  transform: scaleY(1);
+.news-box:hover .news-details p {
+  padding-top: 30px;
 }
-.box .details .content {
+
+.news-box .news-details .news-content {
   position: absolute;
-  top: 50%;
+  top: 85%;
   transform: translateY(-50%);
   text-align: center;
   padding: 15px;
   color: white;
 }
-.box .details .content h3 {
+.news-box .news-details .news-content h3 {
   color: white;
   font-size: 20px;
-  padding-left: 13px;
+  padding-left: 83px;
 }
-.box .details .content p {
+.news-box .news-details .news-content p {
+  padding-top: 50px;
   color: white;
   font-size: 14px;
   padding-left: 13px;
 }
 @media (max-width: 786px) {
-  .show-main {
+  .news-main {
     width: 90%;
   }
-  .show-main p {
+  .news-main p {
     font-size: 10px;
   }
-  .show-heading {
-    font-size: 35px;
-  }
-  .show-media {
-    margin-left: -10px;
+  .news-heading {
+    font-size: 40px;
   }
 }

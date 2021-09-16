@@ -1,0 +1,54 @@
+.our-heading h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+section {
+  background-color: #ff497c;
+  color: white;
+  height: 410px;
+  width: 375px;
+  margin-top: -410px;
+  opacity: 0.8;
+  display: none;
+  animation-name: slide;
+  animation-duration: 0.5s;
+}
+.hov {
+  display: block;
+}
+.hov:hover section {
+  display: block;
+}
+.our-team-heading h3 {
+  padding-top: 200px;
+  color: white;
+  opacity: 1;
+}
+.our-team-heading p {
+  color: white;
+  opacity: 1;
+}
+.out-team-icons {
+  padding-left: 130px;
+}
+.our-icon {
+  padding-right: 15px;
+  color: white;
+}
+@media (max-width: 786px) {
+  .out-team-icons {
+    padding-left: 0;
+  }
+  .our-icon {
+    padding-right: 0px;
+  }
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}

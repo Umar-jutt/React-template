@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
       <div className=" first-image">
-        <nav className={navbar ? "navbar active" : "navbar"}>
+        <nav className={navbar ? "navbar.active" : "navbar"}>
           <nav className="navbar-expand-lg">
             <div class="container-fluid margin-b ">
               <a class="title nab" href="/">
@@ -127,7 +127,7 @@ const Navbar = () => {
         <div className="section">
           <h1 className="web">Web Design Studio</h1>
           <button className="getstarted">
-            Get Started <span className="to-right"></span>
+            <a>Get Started</a> <span className="to-right"></span>
           </button>
         </div>
       </div>

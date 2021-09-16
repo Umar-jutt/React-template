@@ -1,6 +1,8 @@
 import "./showcase.css";
-import lap1 from "../../assets/laptop1.jpg";
+import showCaseApi from "../../showcaseapi";
+import { useState } from "react";
 const Showcase = () => {
+  const [showapi, setShowApi] = useState(showCaseApi);
   return (
     <>
       <div className="show-main">
@@ -12,17 +14,24 @@ const Showcase = () => {
           turpis porttitor.
         </p>
       </div>
-      <div className="row">
-        <div className="col-md-4">
-          <div className="showcase">
-            <img src={lap1} />
-
-            <div className="image-overlay">
-              <div className="image-title">Website Creation</div>
-              <p className="image-description">Web Design</p>
+      <div className="row mt-5 container ps-md-5">
+        {showapi.map((val) => {
+          return (
+            <div className="col-md-4 ps-md-5 pb-5 show-media">
+              <div className="box">
+                <div className="imgbox">
+                  <img src={val.img} />
+                </div>
+                <div className="details">
+                  <div className="content">
+                    <h3>{val.heading}</h3>
+                    <p>Web Design</p>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
+          );
+        })}
       </div>
     </>
   );

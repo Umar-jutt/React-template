@@ -7,62 +7,46 @@
 }
 
 .navbar {
-  background: transparent;
-  color: white;
-  height: 80px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  position: sticky;
-  top: 0;
-  z-index: 999;
-}
-.navbar.active {
-  background: #1d2330;
+  background-color: #1d2330;
 }
 
-.title {
-  margin-top: 20px;
+.navbar-brand {
   color: white;
   font-size: 50px;
   font-weight: bold;
-  margin-left: 50px;
-  text-decoration: none;
+  margin-left: 60px;
 }
-.title:hover {
-  color: white;
-}
-.margin {
-  margin-left: 350px;
-  margin-top: 20px;
-}
-.nav-list {
-  margin-top: 25px;
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
-  padding-right: 30px;
-}
-.nav-icon {
-  color: white;
-}
-
-.nav-list:hover {
-  color: white;
-}
-.dropdown-toggle:hover {
-  color: white;
-}
-.fa {
-  font-size: 20px;
-  margin-top: 10px;
-  padding-left: 10px;
+.navbar-brand:hover {
+  color: black;
 }
 .navbar-toggler-icon {
   color: white;
   font-size: 40px;
 }
 
+.margin {
+  margin-left: auto;
+  margin-right: 60px;
+}
+.nav-link {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  float: right;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.nav-link:hover {
+  color: black;
+}
+.dropdown-toggle:hover {
+  color: black;
+}
+.fa {
+  font-size: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
 .getstarted a span {
   position: absolute;
   height: 70px;
@@ -96,35 +80,12 @@
   background: #ff497c;
   transition: 0.5s;
 }
-@media (max-width: 768px) {
-  .to-right {
-    margin-bottom: 100px;
-  }
-  .first-image {
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 130vh;
-  }
-  .web {
-    font-size: 35px;
-  }
-}
 @media (max-width: 786px) {
-  .title {
-    font-size: 33px;
-    margin-left: 0px;
-    margin-top: 3px;
-  }
-  .margin {
-    background-color: black;
-  }
-  .fa {
-    font-size: 25px;
-    margin-left: 80px;
+  .navbar-brand {
+    font-size: 18px;
+    margin: 0;
   }
   .first-image {
-    width: 87%;
+    width: 90%;
   }
 }

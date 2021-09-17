@@ -1,20 +1,10 @@
 import "./Navbar.css";
-import React, { useState, useEffect } from "react";
 
 const Navbar = () => {
-  const [navbar, setNavbar] = useState(false);
-  const changeBackground = () => {
-    if (window.scrollY >= 80) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
-  window.addEventListener("scroll", changeBackground);
   return (
     <>
       <div className=" first-image">
-        <nav className={navbar ? "navbar.active" : "navbar"}>
+        <nav className="navbar">
           <nav className="navbar-expand-lg">
             <div class="container-fluid margin-b ">
               <a class="title nab" href="/">

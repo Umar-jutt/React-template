@@ -1,6 +1,11 @@
 .talk-high {
   height: 300px;
-  padding-top: 50px;
+  padding-top: 80px;
+}
+.talk-heading h2 {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
 }
 .talk-icon {
   color: white;
@@ -11,6 +16,11 @@
   padding-bottom: 15px;
   margin-right: 20px;
   border-radius: 50%;
+}
+
+.talk-icon:hover {
+  transform: translateY(20px);
+  background: #ff497c;
 }
 .talk-getstarted {
   font-size: 20px;
@@ -25,4 +35,53 @@
 .talk-getstarted:hover {
   background: #ff497c;
   transition: 0.5s;
+}
+.pot-row {
+  background: #161616;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.pot-content {
+  color: white;
+}
+.pot-content h3:hover {
+  color: #ff497c;
+}
+.pot-content p:hover {
+  color: #ff497c;
+}
+.pot-content h3 {
+  color: white;
+}
+.pot-content p {
+  color: white;
+  font-size: 20px;
+}
+.text-row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.text-content {
+  font-weight: bold;
+}
+.footer-hov li a:hover {
+  border-bottom: solid #ff497c;
+}
+@media (max-width: 786px) {
+  .talk-icons {
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+  }
+  .talk-icon {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 130px;
+  }
+  .talk-getstarted {
+    font-size: 16px;
+    padding: 15px 20px;
+  }
 }

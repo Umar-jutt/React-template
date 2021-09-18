@@ -5,7 +5,7 @@ const Card3 = () => {
   const [card3, setCard3] = useState(manyCard3);
   return (
     <>
-      <div className="row container mt-5 ms-md-4">
+      <div className="row container my-5 ms-md-4">
         {card3.map((val) => {
           return (
             <div className="col-md-4 card3-media" key={val.id}>

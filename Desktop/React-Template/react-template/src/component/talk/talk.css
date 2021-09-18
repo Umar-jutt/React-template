@@ -74,10 +74,7 @@
     flex-direction: column;
   }
   .talk-icon {
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 10px;
     border-radius: 130px;
   }
   .talk-getstarted {

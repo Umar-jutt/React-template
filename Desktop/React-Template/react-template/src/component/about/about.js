@@ -6,13 +6,13 @@ const About = () => {
   return (
     <>
       <div className="row">
-        <div className="col-md-5">
+        <div className="col-md-5 about-pad">
           <div className="about-heading">
             <h1>About .</h1>
           </div>
           <div className="about-text">ONLINE MARKETING SOLUTIONS.</div>
         </div>
-        <div className="col-md-7">
+        <div className="col-md-7 about-pad">
           <p className="text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             ullamcorper neque dapibus ipsum semper, sit amet luctus turpis
@@ -21,7 +21,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="row container">
+      <div className="row container res">
         <div className="col-md-8 overlay">
           <div className="image1">
             <img src={image1} />

@@ -109,20 +109,23 @@
 @media (max-width: 786px) {
   .image1 img {
     height: 60vh;
-    margin-left: -20px;
+    margin: 0;
   }
   .image1 h5 {
     padding-top: 15px;
   }
   .image2 img {
     margin-top: 15px;
-    margin-left: -18px;
+    margin-left: 0;
   }
   .image3 img {
     margin-top: 15px;
-    margin-left: -18px;
+    margin: 0;
   }
-  .about-text {
-    padding-left: 30px;
+  .row .container {
+    margin: 0;
+  }
+  .about-pad {
+    padding: 0;
   }
 }

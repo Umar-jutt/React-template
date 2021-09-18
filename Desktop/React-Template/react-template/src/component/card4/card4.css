@@ -13,6 +13,9 @@
   color: #ff497c;
   padding-left: 45px;
 }
+.card-4:hover .card4-icon i {
+  color: black;
+}
 .card4-heading {
   font-size: 27px;
   text-align: left;
@@ -22,8 +25,11 @@
   text-align: left;
   padding-left: 35px;
 }
+.card-4:hover .card4-heading {
+  color: #ff497c;
+}
 @media (max-width: 786px) {
   .card-4 {
-    margin-left: -100px;
+    margin-left: -50px;
   }
 }

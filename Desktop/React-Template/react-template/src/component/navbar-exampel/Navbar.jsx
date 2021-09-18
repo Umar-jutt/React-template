@@ -1,3 +1,4 @@
+import Card from "../../component/card/card";
 import "./Navbar.css";
 
 const Navbarex = () => {
@@ -6,7 +7,7 @@ const Navbarex = () => {
       <div className=" first-image">
         <nav class="navbar navbar-expand-lg fixed-top">
           <div class="container-fluid margin-b ">
-            <a class="navbar-brand nab" href="#">
+            <a class="navbar-brand" href="#">
               StudioM4.
             </a>
             <button
@@ -123,12 +124,16 @@ const Navbarex = () => {
             </div>
           </div>
         </nav>
+
         <div className="section">
           <h1 className="web">Web Design Studio</h1>
           <button className="getstarted">
             <a>Get Started</a> <span className="to-right"></span>
           </button>
         </div>
+      </div>
+      <div className="row container mx-md-5">
+        <Card />
       </div>
     </>
   );

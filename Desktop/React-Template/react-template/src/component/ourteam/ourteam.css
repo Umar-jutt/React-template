@@ -37,10 +37,10 @@ section {
 }
 @media (max-width: 786px) {
   .out-team-icons {
-    padding-left: 0;
+    padding-left: 30;
   }
   .our-icon {
-    padding-right: 0px;
+    padding-right: 10px;
   }
 }
 

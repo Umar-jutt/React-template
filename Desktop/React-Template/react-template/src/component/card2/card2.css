@@ -8,6 +8,10 @@
 .card2:hover {
   padding-left: 30px;
 }
+.card2:hover .file-icon i {
+  display: block;
+  position: relative;
+}
 
 /*
 .card {
@@ -23,7 +27,7 @@
 }
 .arrow i {
   font-size: 30px;
-  padding-left: 40px;
+  padding-left: 100px;
   padding-top: 22px;
 }
 .umar {
@@ -36,6 +40,9 @@
   display: none;
   font-size: 30px;
   padding-top: 22px;
+}
+.align {
+  display: flex;
 }
 @media (max-width: 786px) {
   .card2 {

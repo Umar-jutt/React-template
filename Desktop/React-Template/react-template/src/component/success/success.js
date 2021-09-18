@@ -3,8 +3,8 @@ import image from "../../../src/assets/man.jpg";
 const Success = () => {
   return (
     <>
-      <div className="row container mt-5">
-        <div className="col-md-5">
+      <div className="row mt-md-5 success-margin">
+        <div className="col-md-5 success-padding">
           <img className="image" src={image}></img>
         </div>
         <div className="col-md-7 success-media">
@@ -13,7 +13,7 @@ const Success = () => {
             <p>ONLINE MARKETING SOLUTIONS.</p>
           </div>
           <div className="text">
-            <p>
+            <p className="lorem">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               eget lectus eu ex ornare porta euismod a libero. Phasellus
               vehicula placerat enim at egestas. Aliquam suscipit felis in massa

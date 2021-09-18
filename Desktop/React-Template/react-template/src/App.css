@@ -37,8 +37,7 @@
   }
 }
 @media (max-width: 768px) {
-  .umar {
-    display: flex;
-    flex-direction: column;
+  .me-mt {
+    margin-top: 800px;
   }
 }

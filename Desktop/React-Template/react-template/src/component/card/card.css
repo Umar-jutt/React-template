@@ -1,20 +1,17 @@
-.space {
-  margin-left: 160px;
-}
 .card1 {
-  margin-top: -350px;
   border: none;
   background: #ff497c;
-  margin-left: 10px;
   width: 340px;
   height: 320px;
   padding-left: 20px;
+}
+.card-mag {
+  margin-top: -200px;
 }
 
 .card1 i {
   font-size: 50px;
   float: left;
-  padding-right: 250px;
   color: white;
   margin-top: 30px;
   padding-bottom: 20px;
@@ -44,9 +41,7 @@
   .text p {
     font-size: 30px;
   }
-  .media {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+  .card1 i {
+    padding: 0;
   }
 }

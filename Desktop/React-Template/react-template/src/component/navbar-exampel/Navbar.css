@@ -1,5 +1,6 @@
 .first-image {
   background-image: url(/src/assets/women.jpg);
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,10 +10,9 @@
 .navbar {
   background-color: #1d2330;
 }
-
 .navbar-brand {
   color: white;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: bold;
   margin-left: 60px;
 }
@@ -80,12 +80,62 @@
   background: #ff497c;
   transition: 0.5s;
 }
+.card1 {
+  margin-top: 100px;
+  border: none;
+  background: #ff497c;
+  width: 340px;
+  height: 320px;
+  padding-left: 20px;
+}
+.card1 i {
+  font-size: 50px;
+  float: left;
+  padding-right: 250px;
+  color: white;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+.head {
+  font-size: 25px;
+  margin-top: 20px;
+  float: left;
+  color: white;
+}
+.head:after {
+  content: "";
+  margin-top: 10px;
+  width: 80px;
+  height: 3px;
+  display: block;
+  background: white;
+}
+.text {
+  margin-top: 30px;
+  float: left;
+  text-align: left;
+  color: white;
+}
+@media (max-width: 786px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .text p {
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 786px) {
   .navbar-brand {
     font-size: 18px;
     margin: 0;
   }
-  .first-image {
-    width: 90%;
+  .web {
+    font-size: 30px;
+    padding-left: 30;
+  }
+  * {
+    width: auto;
   }
 }

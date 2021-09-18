@@ -5,11 +5,11 @@ const Card = () => {
   const [cardData, setcardData] = useState(manyCard);
   return (
     <>
-      <div className="row container ps-5">
+      <div className="row card-mag">
         {cardData.map((val) => {
           return (
-            <div className="col-md-4 " key={val.id}>
-              <div className="card1 mx-md-3 media">
+            <div className="col-md-4" key={val.id}>
+              <div className="card1 media">
                 <i className={val.icon}></i>
                 <h2 className="head">{val.heading}</h2>
                 <p className="text">{val.text}</p>

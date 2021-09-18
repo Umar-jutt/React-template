@@ -8,7 +8,7 @@ const manyCard2 = [
   {
     id: 2,
     icon: "far fa-edit",
-    text: "Markting      ",
+    text: "Markting",
     icon2: "fa fa-arrow-right",
   },
 

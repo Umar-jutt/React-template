@@ -30,11 +30,31 @@
   font-weight: bold;
 }
 @media (max-width: 786px) {
+  .success-margin {
+    justify-content: left;
+    text-align: left;
+  }
   .image {
-    margin-left: -23px;
+    width: 100%;
+    height: 70vh;
   }
   .success-media {
-    padding-top: 50px;
-    margin-left: -35px;
+    width: 50%;
+  }
+  .heading h1 {
+    padding-left: 10;
+  }
+  .heading p {
+    padding-left: 10;
+  }
+  .writter p {
+    padding-left: 10;
+  }
+  .success-padding {
+    width: 50%;
+  }
+  .lorem {
+    font-size: 10px;
+    padding: 0;
   }
 }

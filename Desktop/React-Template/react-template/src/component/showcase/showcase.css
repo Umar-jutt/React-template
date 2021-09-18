@@ -65,8 +65,12 @@
   }
   .show-heading {
     font-size: 35px;
+    padding-left: 10px;
   }
   .show-media {
     margin-left: -10px;
+  }
+  .content h3 {
+    padding-left: 10px;
   }
 }
